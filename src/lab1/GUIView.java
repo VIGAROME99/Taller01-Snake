@@ -63,6 +63,7 @@ public class GUIView extends JPanel {
 
 		// Create a new button on that panel and add a StartGameListener as
 		// listener on that button
+
 		this.startGameButton = new JButton("Let’s Play");
 		this.startGameButton.addActionListener(new StartGameListener());
 		this.guiPanel.add(this.startGameButton);
@@ -75,7 +76,6 @@ public class GUIView extends JPanel {
 		add(this.gameView, BorderLayout.CENTER);
 		add(this.guiPanel, BorderLayout.SOUTH);
 	}
-
 	/**
 	 * Get a reference to the game controller. Useful if game needs to be
 	 * stopped by some other means, like in stop() in Applet.
