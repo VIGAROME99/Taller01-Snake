@@ -52,7 +52,7 @@ public class SnakeModel extends GameModel {
 	private static final GameTile FRUIT_TILE = new RoundTile(new Color(180, 0, 0), Color.RED, 3.0);
 
 	/** Graphical representation of the snake */
-	private static final GameTile SNAKE_TILE = new RectangularTile(new Color(155, 103, 60));
+	private static final GameTile SNAKE_TILE = new RectangularTile(Color.darkGray);
 
 	/** Graphical representation of the snake's head */
 	private static final GameTile SNAKE_HEAD_TILE = new RectangularTile(Color.GRAY);
@@ -294,6 +294,10 @@ public class SnakeModel extends GameModel {
 	private boolean isOutOfBounds(Position pos) {
 		return pos.getX() < 0 || pos.getX() >= getGameboardSize().width
 				|| pos.getY() < 0 || pos.getY() >= getGameboardSize().height;
+	}
+
+	public int getGAME_BOARD_SIZE() {
+		return GAME_BOARD_SIZE;
 	}
 
 }
