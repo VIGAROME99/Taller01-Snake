@@ -22,7 +22,7 @@ public class GUIView extends JPanel {
 	private static final long serialVersionUID = -3394100357075618465L;
 
 	/** The "Start Game" button */
-	private final JButton Let´s play;
+	private final JButton startGameButton;
 
 	/** The chooser (also called drop-down menu) with names of different games */
 	private final JComboBox<Object> gameChooser;
@@ -68,7 +68,7 @@ public class GUIView extends JPanel {
 
 		// Create a new button on that panel and add a StartGameListener as
 		// listener on that button
-		this.startGameButton = new JButton("Comenzar");
+		this.startGameButton = new JButton("Let's play");
 		this.startGameButton.addActionListener(new StartGameListener());
 		this.guiPanel.add(this.startGameButton);
 
