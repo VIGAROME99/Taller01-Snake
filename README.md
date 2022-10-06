@@ -13,3 +13,7 @@ CAPTURA 3
 
 CAPTURA 4
 ![Captura 4 Integrante 1](https://user-images.githubusercontent.com/107821723/194209576-57b16701-451c-4d3b-a103-0ecca59f030e.PNG)
+
+INTEGRANTE 2
+CAPTURA1
+[![1e59204a-b6e7-470b-b06a-89a86d9d4d41.jpg](https://i.postimg.cc/7YcN6YvB/1e59204a-b6e7-470b-b06a-89a86d9d4d41.jpg)](https://postimg.cc/Xpf51WYF)
