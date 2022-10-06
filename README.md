@@ -23,3 +23,13 @@ captura2
 
 CAPTURA3
 [![652225f7-7d17-464e-b75e-3306a2d22d33.jpg](https://i.postimg.cc/tTWghk7Z/652225f7-7d17-464e-b75e-3306a2d22d33.jpg)](https://postimg.cc/r0ycTS1M)
+
+INTEGRANTE 3
+CAPTURA 1
+![Captura 1 Integrante 3](https://github.com/VIGAROME/Taller01-Snake-1/blob/main/Imagen1.png)
+
+CAPTURA 2
+![Captura 2 Integrante 3](https://github.com/VIGAROME/Taller01-Snake-1/blob/main/Imagen2.png)
+
+CAPTURA 3
+![Captura 3 Integrante 3](https://github.com/VIGAROME/Taller01-Snake-1/blob/main/Imagen3.png)
