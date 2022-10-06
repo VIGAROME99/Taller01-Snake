@@ -17,3 +17,9 @@ CAPTURA 4
 INTEGRANTE 2
 CAPTURA1
 [![1e59204a-b6e7-470b-b06a-89a86d9d4d41.jpg](https://i.postimg.cc/7YcN6YvB/1e59204a-b6e7-470b-b06a-89a86d9d4d41.jpg)](https://postimg.cc/Xpf51WYF)
+
+captura2
+[![9c6b25ee-2416-4539-b164-3e1df867de40.jpg](https://i.postimg.cc/632vFCqt/9c6b25ee-2416-4539-b164-3e1df867de40.jpg)](https://postimg.cc/mz4kHz75)
+
+CAPTURA3
+[![652225f7-7d17-464e-b75e-3306a2d22d33.jpg](https://i.postimg.cc/tTWghk7Z/652225f7-7d17-464e-b75e-3306a2d22d33.jpg)](https://postimg.cc/r0ycTS1M)
