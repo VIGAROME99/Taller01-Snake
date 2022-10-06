@@ -14,6 +14,11 @@ import javax.swing.JComponent;
  */
 public class GameView extends JComponent {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1534474796794225462L;
+
 	/** Size of game model */
 	private final Dimension modelSize;
 

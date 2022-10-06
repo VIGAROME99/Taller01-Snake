@@ -16,11 +16,16 @@ import javax.swing.JPanel;
  * a GameFactory.
  */
 public class GUIView extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3394100357075618465L;
+
 	/** The "Start Game" button */
 	private final JButton startGameButton;
 
 	/** The chooser (also called drop-down menu) with names of different games */
-	private final JComboBox gameChooser;
+	private final JComboBox<Object> gameChooser;
 
 	/** The game controller associated with the GameView */
 	private final GameController gameController;
@@ -38,7 +43,7 @@ public class GUIView extends JPanel {
 	 * Create a new GUIView. This will create a GameView and a GameController.
 	 * @param factory The factory to use for creating games.
 	 */
-	@SuppressWarnings("synthetic-access")
+
 	public GUIView(IGameFactory factory) {
 		// Create a new GameView
 		this.gameView = new GameView();
@@ -50,7 +55,7 @@ public class GUIView extends JPanel {
 		this.gameFactory = factory;
 
 		// Set the background on the GameView
-		this.gameView.setBackground(Color.white);
+		this.gameView.setBackground(Color.gray);
 
 		// Set the layout on myself
 		setLayout(new BorderLayout());
@@ -63,19 +68,19 @@ public class GUIView extends JPanel {
 
 		// Create a new button on that panel and add a StartGameListener as
 		// listener on that button
-
-		this.startGameButton = new JButton("Let’s Play");
+		this.startGameButton = new JButton("Let's play");
 		this.startGameButton.addActionListener(new StartGameListener());
 		this.guiPanel.add(this.startGameButton);
 
 		// Create a new choice on the panel, and add all available games
-		this.gameChooser = new JComboBox(this.gameFactory.getGameNames());
+		this.gameChooser = new JComboBox<Object>(this.gameFactory.getGameNames());
 		this.guiPanel.add(this.gameChooser);
 
 		// Add both the new panel and the GameView to myself
 		add(this.gameView, BorderLayout.CENTER);
 		add(this.guiPanel, BorderLayout.SOUTH);
 	}
+
 	/**
 	 * Get a reference to the game controller. Useful if game needs to be
 	 * stopped by some other means, like in stop() in Applet.
@@ -90,7 +95,6 @@ public class GUIView extends JPanel {
 	 * the game controller.
 	 */
 	private class StartGameListener implements ActionListener {
-		@SuppressWarnings("synthetic-access")
 		@Override
 		public void actionPerformed(final ActionEvent e) {
 			Object source = e.getSource();

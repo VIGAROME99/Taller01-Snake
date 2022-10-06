@@ -5,6 +5,10 @@ package lab1;
  * information about how many points the player got.
  */
 public class GameOverException extends Exception {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6586608947928120931L;
 	private final int score;
 
 	/** Constructs a new exception with the final score.
